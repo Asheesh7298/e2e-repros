@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8"><title>Names from content</title></head>
+  <body>
+    <!-- The APG tree pattern: each parent item holds a group of child items. -->
+    <ul role="tree" aria-label="Files">
+      <li role="treeitem" aria-expanded="true"><span>src</span>
+        <ul role="group">
+          <li role="treeitem" aria-expanded="true"><span>lib</span>
+            <ul role="group"><li role="treeitem">a.ts</li><li role="treeitem">b.ts</li></ul>
+          </li>
+          <li role="treeitem">index.ts</li>
+        </ul>
+      </li>
+    </ul>
+    <!-- A tab with an unread-count badge. -->
+    <div role="tablist" aria-label="Mail">
+      <button role="tab" aria-selected="true">Inbox <span role="status">3</span></button>
+    </div>
+  </body>
+</html>

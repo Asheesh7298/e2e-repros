@@ -6,3 +6,4 @@ Each folder is a standalone project on the published npm packages.
 | Folder | Bug |
 | --- | --- |
 | [`modal-inert`](modal-inert) | The web engine's tree lists controls behind a `showModal()` dialog |
+| [`name-from-content`](name-from-content) | Names from content include descendants with their own role (a tree item, a tab badge) |
