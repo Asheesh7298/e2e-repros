@@ -1,0 +1,10 @@
+{
+  "name": "skip-in-after-each",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "e2e run" },
+  "devDependencies": {
+    "e2e": "0.23.1",
+    "@e2e-dev/web": "0.16.0"
+  }
+}
